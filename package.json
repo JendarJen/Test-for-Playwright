@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Playwright test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha specs/**/*.spec.js --require @babel/register",
+    "qa": "mocha --config .mocharc.json"
+  },
+  "keywords": [],
+  "author": "Evgenia Rud",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0",
+    "mocha": "^10.2.0",
+    "playwright": "^1.33.0"
+  }
+}
